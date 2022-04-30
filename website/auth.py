@@ -22,7 +22,7 @@ def sign_up():
         firstName = request.form.get('firstName')
         password1 = request.form.get('password1')
         password2 = request.form.get('password2')
-        print(email, firstName, password1, password2)
+        # print(email, firstName, password1, password2)
         
         # Checking if the email is correct, firstName is valid and both the passwords match and are greater than 7 digits
         if len(email) < 4:
